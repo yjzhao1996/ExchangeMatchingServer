@@ -16,8 +16,8 @@ Sample request and response template may be seen in the <ExchangeMatchingServer/
 ## Tests
 ### Configuration
 
-Open erss-hwk4-pr109-yz476/test/client.py, line 183 and update the address it connects to, to the address of the server where the application is running.
-    cd erss-hwk4-pr109-yz476/test
+Open ExchangeMatchingServer/test/client.py, line 183 and update the address it connects to, to the address of the server where the application is running.
+    cd ExchangeMatchingServer/test
     sh test.sh
 
 ### Scalability Testing
