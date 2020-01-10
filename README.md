@@ -6,7 +6,7 @@ Exchange Server
 
 **Description**:  Multi-threaded Server Program that simulates a simple Exchange Matching Server using XML for requests and responses. Allows creation of accounts, positions(or stocks held) under the account. Transactions include creating orders, querying the status of a unique order id and cancelling orders using the order id.
 
-Sample request and response template may be seen in the <erss-hwk4-pr109-yz476/test> folder as create_template.xml and transaction_template.xml.
+Sample request and response template may be seen in the <ExchangeMatchingServer/test> folder as create_template.xml and transaction_template.xml.
 
 **Usage:**
 ----------
@@ -16,8 +16,8 @@ Sample request and response template may be seen in the <erss-hwk4-pr109-yz476/t
 ## Tests
 ### Configuration
 
-Open erss-hwk4-pr109-yz476/test/client.py, line 183 and update the address it connects to, to the address of the server where the application is running.
-    cd erss-hwk4-pr109-yz476/test
+Open ExchangeMatchingServer/test/client.py, line 183 and update the address it connects to, to the address of the server where the application is running.
+    cd ExchangeMatchingServer/test
     sh test.sh
 
 ### Scalability Testing
