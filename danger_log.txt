@@ -1,0 +1,3 @@
+* parser does type conversion without exception handling. This will cause program to terminate upon malformed requests.
+* Error handling is performed in the database interface where objects are entered into database, however, parser undermines this and does not handle any exceptions.
+* Program may hang if malformed XML is sent causing DoS.

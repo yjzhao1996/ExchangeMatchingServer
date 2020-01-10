@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<create>
+  <account id="ACCOUNT_ID" balance="BALANCE"/> #0 or more
+  <symbol sym="SYM"> #0 or more
+    <account id="ACCOUNT_ID">NUM</account>#1 or more
+  </symbol>
+</create>

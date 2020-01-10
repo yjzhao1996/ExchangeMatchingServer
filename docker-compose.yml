@@ -1,0 +1,18 @@
+version: "3.3"
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: passw0rd
+      POSTGRES_USER: postgres
+      POSTGRES_DB: exchange_matching
+
+
+  sys:
+    build: .
+    volumes:
+      - "./src:/app"
+    depends_on:
+      - db
+    ports:
+      - "12345:12345"
